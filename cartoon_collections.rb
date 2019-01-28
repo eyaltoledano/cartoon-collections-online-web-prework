@@ -27,5 +27,9 @@ def find_the_cheese(array)
 
   cheese_types.find do |item|
     array.any?
+  else
+    nil
   end
+
+
 end

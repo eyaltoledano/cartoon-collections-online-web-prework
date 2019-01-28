@@ -29,4 +29,10 @@ def find_the_cheese(array)
     array.any?
   end
 
+  if first_item
+    first_item
+  else
+    nil
+  end
+
 end

@@ -25,10 +25,7 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  first_item = cheese_types.find do |item|
-    array.any?
+  cheese_types.find do |item|
+    item.any?
   end
-
-  return nil if !first_item
-
 end
